@@ -3,4 +3,4 @@
 
 Reference: https://www.youtube.com/watch?v=OR0e-1UBEOU
 
-<img src="mad-game-pic.png">
+<img src="game-anime.gif"/>
