@@ -25,6 +25,14 @@ public class LevelController : MonoBehaviour
 
             // Increase level number
             _nextLevelIndex++;
+
+            if (_nextLevelIndex > 2)
+            {
+                // Return to level 1
+                _nextLevelIndex = 1;
+             
+            }
+
             string nextLevelName = "Level" + _nextLevelIndex;
             SceneManager.LoadScene(nextLevelName);
         }
